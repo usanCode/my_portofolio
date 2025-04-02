@@ -1,24 +1,40 @@
 
 body{
-    background-color: black;
+    background-color: rgb(61, 47, 47);
     color: white;
+   
+    
+  
     
 }
-header{
-    margin:0;
-    padding:0;
+
+.container{
+    width:80%;
+    height: auto;
+    
+    justify-content: center;
+    
+}
+.header{
+     align-content: stretch;
     
 }
 
 h1{
-    width: 100%;
-   
+    font-weight:bolder;
+    font-size:100px;
+    align-content: stretch;
     
 }
 
+  
 li{
     display: inline;
     padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+    
 }
 a{
     color: white;
@@ -28,4 +44,40 @@ a:hover{
     
     text-decoration: underline;
 
+}
+.parts{
+    display: none;
+}
+.parts:target{
+    display: block;
+    padding: 10%;
+   
+   
+   
+}
+.email{
+    color: white;
+}
+.email:hover{
+    text-decoration: underline;
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 10px;
+    
+   
+    margin: 0 auto;
+    width: 80%;
+}
+.email-link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+    width: 80%;
+}
+.certificates-list{
+    
 }
