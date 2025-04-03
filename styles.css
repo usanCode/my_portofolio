@@ -157,10 +157,17 @@ p{
     
 }
 .certificates{
-    list-style-type: circle;
-    color:white;
-}
     
+    color:yellow;
+}
+ 
+.cv{
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+    padding-left: 45px;
+
+}
 
 
 @media screen  and (max-width:540px){
