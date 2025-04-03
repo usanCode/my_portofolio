@@ -10,7 +10,7 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns:60%  30%;
+    grid-template-columns:45%  45%;
     grid-template-rows:15% 10%  10% 60%  ;
     width: 1000px;
     height: 800%;
@@ -87,8 +87,8 @@ a:hover{
     height: auto;
     
     justify-content: center;
-    grid-column-start: 1;
-    grid-column-end:2;
+    grid-column-start: 2;
+    grid-column-end:3;
     grid-row-start: 4;
     grid-row-end: 5;
     
@@ -107,8 +107,8 @@ a:hover{
 }
 
 .grid-image{
-    grid-column-start: 2;
-    grid-column-end:3;
+    grid-column-start: 1;
+    grid-column-end:2;
     grid-row-start: 4;
     grid-row-end: 5;
     
@@ -209,8 +209,8 @@ p{
     .heading2{
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start:3 ;
-        grid-row-end: 4;
+        grid-row-start:2 ;
+        grid-row-end: 3;
         width:100%;
         height: auto;
     
@@ -238,8 +238,8 @@ p{
     .navbar{
         grid-column-start: 1;
         grid-column-end:2;
-        grid-row-start: 5;
-        grid-row-end:6 ;
+        grid-row-start: 3;
+        grid-row-end:4 ;
         width:100%;
         height: auto;
     
@@ -248,20 +248,21 @@ p{
     .grid-image{
         grid-column-start: 1;
         grid-column-end:2;
-        grid-row-start: 7;
-        grid-row-end:8;
+        grid-row-start: 4;
+        grid-row-end:5;
+        margin-bottom: 10px;
+        width:400px;
+        height:510px;
         
-        margin: 4%;
         
     }
    
     img{
-        width:auto;
-        height:auto;
+        
         border-radius: 20%;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        padding: 10px;
-        margin: 2%;
+       width: 70%;
+        height: 70%;
     }
     
     .text-container{
@@ -271,8 +272,8 @@ p{
         justify-content: center;
         grid-column-start: 1;
         grid-column-end:2;
-        grid-row-start: 9;
-        grid-row-end: 10;
+        grid-row-start: 6;
+        grid-row-end: 7;
         
     }
 
