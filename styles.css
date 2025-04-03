@@ -181,7 +181,7 @@ p{
         grid-template-rows:15% 5% 5% 34% 36% ;
         width: 500px;
         height: 600px;
-        
+        padding-bottom: 2%;
         margin:auto;
         justify-content:center;
         
