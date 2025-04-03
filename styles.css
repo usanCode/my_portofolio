@@ -11,7 +11,7 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns:45%  45%;
-    grid-template-rows:15% 10%  10% 60%  ;
+    grid-template-rows:15% 10%  5% 60%  ;
     width: 1000px;
     height: 800%;
     
@@ -66,7 +66,7 @@ h1{
   
 li{
     display: inline;
-    padding: 15px;
+    padding: 7px;
     
     font-size: 20px;
     
@@ -87,8 +87,8 @@ a:hover{
     height: auto;
     
     justify-content: center;
-    grid-column-start: 2;
-    grid-column-end:3;
+    grid-column-start: 3;
+    grid-column-end:4;
     grid-row-start: 4;
     grid-row-end: 5;
     
@@ -111,15 +111,19 @@ a:hover{
     grid-column-end:2;
     grid-row-start: 4;
     grid-row-end: 5;
-    
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+   
     
 }
 
 img{
-    width: 100%;
-    height:fit-content;
+    width: 70%;
+    height:70%;
     border-radius: 20%;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
 }
 
 .email{
