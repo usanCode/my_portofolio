@@ -2,36 +2,72 @@
 body{
     background-color: rgb(61, 47, 47);
     color: white;
+    width: 100%;
+    margin: auto;
    
+   
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:60%  30%;
+    grid-template-rows:15% 10%  10% 60%  ;
+    width: 1000px;
+    height: 800%;
+    
+    margin:auto;
+    justify-content:center;
+    
+    
     
   
+}
+
+.header{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    width:100%;
+    height: auto;
     
 }
 
-.container{
-    width:80%;
-    height: auto;
-    
-    justify-content: center;
-    
-}
-.header{
-     align-content: stretch;
-    
-}
+
+
+
+
 
 h1{
     font-weight:bolder;
     font-size:100px;
-    align-content: stretch;
+   
     
 }
+.heading2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    width:100%;
+    height: auto;
 
+}
+
+.navbar{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+    width:100%;
+    height: auto;
+}
   
 li{
     display: inline;
-    padding: 20px;
-    text-align: center;
+    padding: 15px;
+    
     font-size: 20px;
     
     
@@ -45,19 +81,51 @@ a:hover{
     text-decoration: underline;
 
 }
+
+.container{
+    width:100%;
+    height: auto;
+    
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    
+}
+
+
 .parts{
     display: none;
+    
 }
 .parts:target{
     display: block;
-    padding: 10%;
-   
+     
    
    
 }
+
+.grid-image{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    
+    
+}
+
+img{
+    width: 100%;
+    height:fit-content;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 .email{
     color: white;
 }
+
 .email:hover{
     text-decoration: underline;
 }
@@ -79,5 +147,144 @@ p{
     width: 80%;
 }
 .certificates-list{
+    display: block;
+    padding-left: 50px;
+    
+    
+}
+.certificates{
+    list-style-type: circle;
+    color:white;
+}
+    
+
+
+@media screen  and (max-width:540px){
+
+    body{
+        background-color: rgb(61, 47, 47);
+        color: white;
+        width: 100%;
+        margin: auto;
+       
+       
+    }
+   
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns:80%;
+        grid-template-rows:20% 10% 5% 20% 40% ;
+        width: 500px;
+        height: 600px;
+        
+        margin:auto;
+        justify-content:center;
+        
+        
+        
+      
+    }
+
+    .header{
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:1 ;
+        grid-row-end: 2;
+        width:100%;
+        height: auto;
+        
+        
+    }
+
+    h1{
+        font-weight:bolder;
+        font-size:50px;
+    }
+
+    .heading2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:2 ;
+        grid-row-end: 3;
+        width:100%;
+        height: auto;
+    
+    }
+
+    h2{
+        font-size: medium;
+    }
+
+    h3{
+        font-size: medium;
+
+    }
+
+    li{
+        display: inline;
+        padding: 7px;
+        
+        font-size: 15px;
+        
+        
+    }
+
+   
+    .navbar{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 3;
+        grid-row-end:4 ;
+        width:100%;
+        height: auto;
+    
+    }
+
+    .grid-image{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        width:70%;
+        height: auto;
+        margin: 2%;
+        
+    }
+   
+    img{
+        width:50%;
+        height:60%;
+        border-radius: 20%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        padding: 10px;
+        margin: 2%;
+    }
+    
+    .container{
+        width:100%;
+        height: 100%;
+        margin: 2%;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        
+    }
+
+    p{
+        font-size: 1em;
+        line-height: 1.5em;
+        padding: 5px;
+        
+       
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+
+    
     
 }
