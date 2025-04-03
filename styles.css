@@ -133,7 +133,7 @@ p{
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 10px;
-    
+    text-align: justify;
    
     margin: 0 auto;
     width: 80%;
@@ -280,6 +280,7 @@ p{
         font-size: 1em;
         line-height: 1.5em;
         padding: 5px;
+        text-align: justify;
               
         margin: 0 auto;
         width: 80%;
