@@ -174,7 +174,7 @@ p{
     .grid-container{
         display: grid;
         grid-template-columns:80%;
-        grid-template-rows:20% 10% 5% 20% 40% ;
+        grid-template-rows:15% 5% 5% 34% 36% ;
         width: 500px;
         height: 600px;
         
@@ -209,8 +209,8 @@ p{
     .heading2{
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start:2 ;
-        grid-row-end: 3;
+        grid-row-start:3 ;
+        grid-row-end: 4;
         width:100%;
         height: auto;
     
@@ -227,7 +227,7 @@ p{
 
     li{
         display: inline;
-        padding: 7px;
+        padding: 5px;
         
         font-size: 15px;
         
@@ -238,8 +238,8 @@ p{
     .navbar{
         grid-column-start: 1;
         grid-column-end:2;
-        grid-row-start: 3;
-        grid-row-end:4 ;
+        grid-row-start: 5;
+        grid-row-end:6 ;
         width:100%;
         height: auto;
     
@@ -248,17 +248,16 @@ p{
     .grid-image{
         grid-column-start: 1;
         grid-column-end:2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-        width:70%;
-        height: auto;
-        margin: 2%;
+        grid-row-start: 7;
+        grid-row-end:8;
+        
+        margin: 4%;
         
     }
    
     img{
-        width:50%;
-        height:60%;
+        width:auto;
+        height:auto;
         border-radius: 20%;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
         padding: 10px;
@@ -272,8 +271,8 @@ p{
         justify-content: center;
         grid-column-start: 1;
         grid-column-end:2;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 10;
         
     }
 
@@ -281,13 +280,19 @@ p{
         font-size: 1em;
         line-height: 1.5em;
         padding: 5px;
-        
-       
+              
         margin: 0 auto;
         width: 80%;
     }
     
-
+    .email-link{
+        color: white;
+        text-decoration: none;
+        font-size:12px;
+        
+        
+       
+    }
     
     
 }
