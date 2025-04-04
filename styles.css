@@ -12,16 +12,19 @@ body{
     display: grid;
     grid-template-columns:45%  45%;
     grid-template-rows:15% 10%  5% 60%  ;
+    
     width: 1000px;
-    height: 800%;
+    height: 800px;
     
     margin:auto;
     justify-content:center;
     
-    
+ 
     
   
 }
+
+
 
 .headere{
 
@@ -50,6 +53,7 @@ h1{
     grid-column-end: 3;
     grid-row-start:2 ;
     grid-row-end: 3;
+    
     width:100%;
     height: auto;
 
@@ -82,13 +86,37 @@ a:hover{
 
 }
 
+.grid-image{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex; 
+    justify-content: center;
+    padding: 2%;
+    width: auto;
+    height:auto;
+    
+}
+
+img{
+
+    padding-top: 6%;
+    width: auto;
+    height:auto;
+    border-radius: 20%;
+    
+    
+    
+}
+
 .text-container{
-    width:100%;
+    width:auto;
     height: auto;
     
     justify-content: center;
-    grid-column-start: 3;
-    grid-column-end:4;
+    grid-column-start: 2;
+    grid-column-end:3;
     grid-row-start: 4;
     grid-row-end: 5;
     
@@ -106,25 +134,7 @@ a:hover{
    
 }
 
-.grid-image{
-    grid-column-start: 1;
-    grid-column-end:2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-   
-    
-}
 
-img{
-    width: 70%;
-    height:70%;
-    border-radius: 20%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    
-}
 
 .email{
     color: white;
@@ -189,8 +199,9 @@ p{
         display: grid;
         grid-template-columns:80%;
         grid-template-rows:15% 5% 5% 34% 36% ;
-        width: 500px;
-        height: 600px;
+        row-gap: 2%;
+        width: 520px;
+        height: 850px;
         padding-bottom: 2%;
         margin:auto;
         justify-content:center;
@@ -199,11 +210,7 @@ p{
         
       
     }
-    .first-container{
-        color: white;
-
-    }
-
+   
     .headere{
 
         grid-column-start: 1;
@@ -213,12 +220,13 @@ p{
         width:100%;
         height: auto;
         
-        
+            
     }
 
     h1{
-        font-weight:bolder;
+        
         font-size:50px;
+        
     }
 
     .heading2{
@@ -228,11 +236,15 @@ p{
         grid-row-end: 3;
         width:100%;
         height: auto;
+        
+       
+        
     
     }
 
     h2{
-        font-size: medium;
+        font-size: 25px;
+
     }
 
     h3{
@@ -243,7 +255,6 @@ p{
     li{
         display: inline;
         padding: 3px;
-        
         font-size: 15px;
         
         
@@ -257,6 +268,7 @@ p{
         grid-row-end:4 ;
         width:100%;
         height: auto;
+        padding-top: 20px;
     
     }
 
@@ -265,7 +277,8 @@ p{
         grid-column-end:2;
         grid-row-start: 4;
         grid-row-end:5;
-       
+        display: flex; 
+        justify-content: center;
         
         
         
@@ -274,10 +287,10 @@ p{
     img{
         
         border-radius: 20%;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        width: 65%;
-        height: 65%;
-        margin-right: 10px;
+       
+        width: auto;
+        height: auto;
+        padding-right: 20px;
     }
     
     .text-container{
